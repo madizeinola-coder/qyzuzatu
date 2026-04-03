@@ -24,6 +24,14 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
+    @font-face {
+      font-family: 'GoodVibesKZ';
+      src: url('KGV.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
     body {
       background: #d0c5bb;
       background-image:
@@ -222,9 +230,9 @@
       animation: fadeUp .8s ease both .1s; position: relative; z-index: 1;
     }
     .hero-event {
-      font-family: 'Great Vibes', cursive; font-size: 60px; color: var(--rose); line-height: 1; text-align: center;
+      font-family: 'GoodVibesKZ', cursive; font-size: 72px; color: var(--rose); line-height: 1; text-align: center;
       animation: fadeUp .8s ease both .25s; position: relative; z-index: 1;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
     .hero-name {
       font-family: 'Italiana', serif; font-size: 84px; font-weight: 400; color: var(--brown);
@@ -274,8 +282,8 @@
       color: var(--rose); text-align: center; margin-bottom: 12px;
     }
     .section-title {
-      font-family: 'Great Vibes', cursive; font-size: 42px; color: var(--brown);
-      text-align: center; margin-bottom: 32px; line-height: 1.1;
+      font-family: 'GoodVibesKZ', cursive; font-size: 56px; color: var(--brown);
+      text-align: center; margin-bottom: 32px; line-height: 1.1; font-weight: 400;
     }
     .sh { text-align: center; margin-bottom: 24px; }
 
@@ -314,9 +322,8 @@
     }
 
     .inv-event-kz {
-      /* Умный стек шрифтов: подтягивает Z003 на Linux, Apple Chancery на Mac, Monotype Corsiva на Windows */
-      font-family: 'Z003', 'URW Chancery L', 'Apple Chancery', 'Monotype Corsiva', 'Cormorant Garamond', cursive;
-      font-size: 46px;
+      font-family: 'GoodVibesKZ', cursive;
+      font-size: 60px;
       font-weight: 400;
       color: var(--brown);
       display: block;
@@ -606,12 +613,12 @@
         тойына арналған салтанатты ақ дастарханымыздың<br>қадірлі қонағы болуға шақырамыз!
       </p>
 
-      <!-- МОНУМЕНТАЛЬНЫЙ БЛОК: ТОЙ ИЕСІ -->
+      <!-- ТОЙ ИЕСІ (Бер үк зурлыктагы шрифт) -->
       <div style="text-align: center; margin-top: 56px; position: relative; z-index: 2;">
         <span style="font-family: 'Montserrat', sans-serif; font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--sage); display: block; margin-bottom: 12px; font-weight: 500;">Той иесі</span>
         <h2 style="font-family: 'Cormorant Garamond', serif; color: var(--rose); line-height: 1.1; font-weight: 400; margin: 0; font-style: italic;">
-          <span style="font-size: 54px; display: block; margin-bottom: 4px;">Зәуреш</span>
-          <span style="font-size: 32px; display: block;">Меңдіғали қызы</span>
+          <span style="font-size: 48px; display: block;">Зәуреш</span>
+          <span style="font-size: 48px; display: block;">Меңдіғали қызы</span>
         </h2>
       </div>
 
@@ -688,7 +695,7 @@
       <p class="loc-address" style="font-family: 'Cormorant Garamond', serif;">Бөкенбай батыр<br>даңғылы, 40</p>
       <p class="loc-sub">Ресторан · 18:00-да бастайды</p>
       <a class="map-btn"
-         href="https://go.2gis.com/JzrEx"
+         href="
          target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 3L3 10.53v.98l6.84 2.65L12.48 21h.98L21 3z"/></svg>
         Картаға өту
